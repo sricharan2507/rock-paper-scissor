@@ -22,6 +22,7 @@ let score = JSON.parse(localStorage.getItem('score')) || {
     },1000);
   }
 
+
   function playGame(playerMove) {
     const computerMove = pickComputerMove();
 
